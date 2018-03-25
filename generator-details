@@ -1,5 +1,4 @@
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code$ cd edu
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ jhipster
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ jhipster
 Using JHipster version installed globally
 Running default command
 Executing jhipster:app
@@ -22,7 +21,7 @@ Welcome to the JHipster Generator v4.14.1
   Documentation for creating an application: http://www.jhipster.tech/creating-an-app/
  _______________________________________________________________________________________________________________
 
-Application files will be generated in folder: /home/braja/Desktop/Projects/JHipster/code/edu
+Application files will be generated in folder: /home/braja/Desktop/Projects/JHipster/edu
 ? Which *type* of application would you like to create? Monolithic application (recommended for simple projects)
 ? What is the base name of your application? edu
 ? What is your default Java package name? com.edu
@@ -447,11 +446,11 @@ warning Resolution field "source-map@0.6.1" is incompatible with requested versi
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.5.3"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.5.6"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@0.1.x"
+warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.5.6"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.5.3"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.5.6"
-warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.5.6"
-warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@~0.5.1"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@~0.4.1"
+warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@~0.5.1"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@0.5.x"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.5.7"
 warning Resolution field "source-map@0.6.1" is incompatible with requested version "source-map@^0.4.2"
@@ -479,9 +478,9 @@ warning " > bootstrap@4.0.0" has unmet peer dependency "popper.js@^1.12.9".
 [5/5] Building fresh packages...
 success Saved lockfile.
 $ node node_modules/phantomjs-prebuilt/install.js
-Found PhantomJS at /home/braja/Desktop/Projects/JHipster/code/edu/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs ...verifying
-PhantomJS is previously installed at /home/braja/Desktop/Projects/JHipster/code/edu/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
-Done in 40.45s.
+Found PhantomJS at /home/braja/Desktop/Projects/JHipster/edu/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs ...verifying
+PhantomJS is previously installed at /home/braja/Desktop/Projects/JHipster/edu/node_modules/phantomjs-prebuilt/lib/phantom/bin/phantomjs
+Done in 39.92s.
 yarn run v1.3.2
 $ yarn run cleanup && yarn run webpack:build:main
 $ rimraf target/{aot,www}
@@ -490,77 +489,77 @@ warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forw
 $ node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js --config webpack/webpack.dev.js --progress --profile
  10% building modules 1/4 modules 3 active .../main/webapp/content/scss/global.scssWarning: The 'no-unused-variable' rule requires type infomation.
 
-[at-loader] Using typescript@2.6.2 from typescript and "tsconfig.json" from /home/braja/Desktop/Projects/JHipster/code/edu/tsconfig.json.
+[at-loader] Using typescript@2.6.2 from typescript and "tsconfig.json" from /home/braja/Desktop/Projects/JHipster/edu/tsconfig.json.
 
-12760ms building modules                                                                
-16ms sealing
+13428ms building modules                                                                
+20ms sealing
 0ms optimizing 
 0ms basic module optimization 
-11ms module optimization
+15ms module optimization
 0ms advanced module optimization 
-33ms basic chunk optimization       
-1ms chunk optimization 
-0ms advanced chunk optimization 
-0ms module and chunk tree optimization 
+22ms basic chunk optimization       
+0ms chunk optimization 
+1ms advanced chunk optimization 
+3ms module and chunk tree optimization 
 0ms chunk modules optimization 
 0ms advanced chunk modules optimization 
-8ms module reviving 
-23ms module order optimization
-8ms module id optimization 
-6ms chunk reviving 
-1ms chunk order optimization 
-24ms chunk id optimization
-41ms hashing
+6ms module reviving 
+12ms module order optimization
+13ms module id optimization
+7ms chunk reviving 
+0ms chunk order optimization 
+23ms chunk id optimization
+40ms hashing
 1ms module assets processing 
-3784ms chunk assets processing
-129ms additional chunk assets processing
-2ms recording 
+3912ms chunk assets processing
+111ms additional chunk assets processing
+0ms recording 
 0ms additional asset processing 
 0ms chunk asset optimization 
  94% asset optimization
 [at-loader] Checking started in a separate process...
 
-[at-loader] Ok, 0.208 sec.
+[at-loader] Ok, 0.266 sec.
 MergetJsonsWebpackPlugin compilation started...
 MergetJsonsWebpackPlugin compilation completed...
-368ms asset optimization
+411ms asset optimization
  95% emittingMergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
-149ms emitting
-Hash: 077681343d57a0439c96
+363ms emitting
+Hash: 40a12f58b5c7399fcaa4
 Version: webpack 3.10.0
-Time: 17559ms
+Time: 18601ms
  45 assets
 [./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js!./src/main/webapp/content/scss/global.scss] ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./src/main/webapp/content/scss/global.scss 5.22 kB {3} [built]
-       [] -> factory:7ms building:8298ms = 8305ms
+       [] -> factory:7ms building:9060ms = 9067ms
 [./src/main/webapp/app/app.main.ts] ./src/main/webapp/app/app.main.ts 582 bytes {2} [built]
-        factory:435ms building:3001ms = 3436ms
+        factory:492ms building:3189ms = 3681ms
 [./src/main/webapp/app/app.module.ts] ./src/main/webapp/app/app.module.ts 4.1 kB {2} [built]
-       [] -> factory:48ms building:177ms = 225ms
+       [] -> factory:38ms building:79ms = 117ms
 [./src/main/webapp/app/blocks/config/prod.config.ts] ./src/main/webapp/app/blocks/config/prod.config.ts 391 bytes {2} [built]
-       [] -> factory:68ms building:175ms dependencies:770ms = 1013ms
+       [] -> factory:43ms building:130ms dependencies:831ms = 1004ms
 [./src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.ts] ./src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.ts 1.91 kB {2} [built]
-       [] -> factory:52ms building:419ms dependencies:844ms = 1315ms
+       [] -> factory:76ms building:434ms dependencies:892ms = 1402ms
 [./src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.ts] ./src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.ts 1.03 kB {2} [built]
-       [] -> factory:52ms building:474ms dependencies:789ms = 1315ms
+       [] -> factory:77ms building:511ms dependencies:814ms = 1402ms
 [./src/main/webapp/app/blocks/interceptor/notification.interceptor.ts] ./src/main/webapp/app/blocks/interceptor/notification.interceptor.ts 1.78 kB {2} [built]
-       [] -> factory:52ms building:536ms dependencies:727ms = 1315ms
+       [] -> factory:77ms building:596ms dependencies:729ms = 1402ms
 [./src/main/webapp/app/entities/entity.module.ts] ./src/main/webapp/app/entities/entity.module.ts 1.24 kB {2} [built]
-       [] -> factory:54ms building:640ms dependencies:94ms = 788ms
+       [] -> factory:79ms building:688ms dependencies:120ms = 887ms
 [./src/main/webapp/app/home/home.module.ts] ./src/main/webapp/app/home/home.module.ts 1.41 kB {2} [built]
-       [] -> factory:53ms building:549ms dependencies:1270ms = 1872ms
+       [] -> factory:77ms building:614ms dependencies:1408ms = 2099ms
 [./src/main/webapp/app/layouts/index.ts] ./src/main/webapp/app/layouts/index.ts 670 bytes {2} [built]
-       [] -> factory:768ms building:104ms = 872ms
+       [] -> factory:859ms building:125ms = 984ms
 [./src/main/webapp/app/polyfills.ts] ./src/main/webapp/app/polyfills.ts 2.66 kB {1} [built]
-        factory:206ms building:3152ms = 3358ms
+        factory:229ms building:3381ms = 3610ms
 [./src/main/webapp/app/shared/auth/state-storage.service.ts] ./src/main/webapp/app/shared/auth/state-storage.service.ts 2.84 kB {2} [built]
-       [] -> factory:54ms building:679ms dependencies:60ms = 793ms
+       [] -> factory:79ms building:718ms dependencies:94ms = 891ms
 [./src/main/webapp/app/shared/index.ts] ./src/main/webapp/app/shared/index.ts 1.35 kB {2} [built]
-       [] -> factory:763ms building:90ms dependencies:5723ms = 6576ms
+       [] -> factory:858ms building:114ms dependencies:6179ms = 7151ms
 [./src/main/webapp/content/scss/global.scss] ./src/main/webapp/content/scss/global.scss 1.38 kB {3} [built]
-        factory:435ms building:28ms = 463ms
+        factory:493ms building:26ms = 519ms
 [./src/main/webapp/manifest.webapp] ./src/main/webapp/manifest.webapp 61 bytes {1} [built]
-       [] -> factory:553ms dependencies:5760ms building:6336ms = 12649ms
+       [] -> factory:467ms dependencies:6260ms building:6930ms = 13657ms
     + 673 hidden modules
 MergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
@@ -568,7 +567,7 @@ MergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
 MergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
-Done in 20.30s.
+Done in 21.40s.
 If you find JHipster useful consider supporting our collective https://opencollective.com/generator-jhipster
 
 Server application generated successfully.
@@ -583,7 +582,7 @@ Start your Webpack development server with:
 
 Congratulations, JHipster execution is complete!
 Application successfully committed to Git.
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ jhipster import-jdl jhipster-jdl.jh
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ jhipster import-jdl jhipster-jdl.jh
 Using JHipster version installed locally in current project's node_modules
 Executing jhipster:import-jdl jhipster-jdl.jh
 Options: 
@@ -676,7 +675,7 @@ Found the .jhipster/ClassLog.json configuration file, entity can be automaticall
 
 The entity ClassLog is being updated.
 
-   create src/main/resources/config/liquibase/changelog/20180324222804_added_entity_Organization.xml
+   create src/main/resources/config/liquibase/changelog/20180325202933_added_entity_Organization.xml
    create src/main/java/com/edu/domain/Organization.java
    create src/main/java/com/edu/repository/OrganizationRepository.java
    create src/main/java/com/edu/web/rest/OrganizationResource.java
@@ -728,8 +727,8 @@ The entity ClassLog is being updated.
     force src/main/webapp/i18n/mr/global.json
    create src/main/webapp/i18n/ta/organization.json
     force src/main/webapp/i18n/ta/global.json
-   create src/main/resources/config/liquibase/changelog/20180324222805_added_entity_Division.xml
-   create src/main/resources/config/liquibase/changelog/20180324222805_added_entity_constraints_Division.xml
+   create src/main/resources/config/liquibase/changelog/20180325202934_added_entity_Division.xml
+   create src/main/resources/config/liquibase/changelog/20180325202934_added_entity_constraints_Division.xml
    create src/main/java/com/edu/domain/Division.java
    create src/main/java/com/edu/repository/DivisionRepository.java
    create src/main/java/com/edu/web/rest/DivisionResource.java
@@ -761,8 +760,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/division.json
    create src/main/webapp/i18n/mr/division.json
    create src/main/webapp/i18n/ta/division.json
-   create src/main/resources/config/liquibase/changelog/20180324222806_added_entity_Employee.xml
-   create src/main/resources/config/liquibase/changelog/20180324222806_added_entity_constraints_Employee.xml
+   create src/main/resources/config/liquibase/changelog/20180325202935_added_entity_Employee.xml
+   create src/main/resources/config/liquibase/changelog/20180325202935_added_entity_constraints_Employee.xml
    create src/main/java/com/edu/domain/Employee.java
    create src/main/java/com/edu/repository/EmployeeRepository.java
    create src/main/java/com/edu/web/rest/EmployeeResource.java
@@ -799,8 +798,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/employee.json
    create src/main/webapp/i18n/mr/employee.json
    create src/main/webapp/i18n/ta/employee.json
-   create src/main/resources/config/liquibase/changelog/20180324222807_added_entity_Course.xml
-   create src/main/resources/config/liquibase/changelog/20180324222807_added_entity_constraints_Course.xml
+   create src/main/resources/config/liquibase/changelog/20180325202936_added_entity_Course.xml
+   create src/main/resources/config/liquibase/changelog/20180325202936_added_entity_constraints_Course.xml
    create src/main/java/com/edu/domain/Course.java
    create src/main/java/com/edu/repository/CourseRepository.java
    create src/main/java/com/edu/web/rest/CourseResource.java
@@ -832,8 +831,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/course.json
    create src/main/webapp/i18n/mr/course.json
    create src/main/webapp/i18n/ta/course.json
-   create src/main/resources/config/liquibase/changelog/20180324222808_added_entity_Subject.xml
-   create src/main/resources/config/liquibase/changelog/20180324222808_added_entity_constraints_Subject.xml
+   create src/main/resources/config/liquibase/changelog/20180325202937_added_entity_Subject.xml
+   create src/main/resources/config/liquibase/changelog/20180325202937_added_entity_constraints_Subject.xml
    create src/main/java/com/edu/domain/Subject.java
    create src/main/java/com/edu/repository/SubjectRepository.java
    create src/main/java/com/edu/web/rest/SubjectResource.java
@@ -865,8 +864,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/subject.json
    create src/main/webapp/i18n/mr/subject.json
    create src/main/webapp/i18n/ta/subject.json
-   create src/main/resources/config/liquibase/changelog/20180324222809_added_entity_Enquiry.xml
-   create src/main/resources/config/liquibase/changelog/20180324222809_added_entity_constraints_Enquiry.xml
+   create src/main/resources/config/liquibase/changelog/20180325202938_added_entity_Enquiry.xml
+   create src/main/resources/config/liquibase/changelog/20180325202938_added_entity_constraints_Enquiry.xml
    create src/main/java/com/edu/domain/Enquiry.java
    create src/main/java/com/edu/repository/EnquiryRepository.java
    create src/main/java/com/edu/web/rest/EnquiryResource.java
@@ -898,8 +897,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/enquiry.json
    create src/main/webapp/i18n/mr/enquiry.json
    create src/main/webapp/i18n/ta/enquiry.json
-   create src/main/resources/config/liquibase/changelog/20180324222810_added_entity_FollowUp.xml
-   create src/main/resources/config/liquibase/changelog/20180324222810_added_entity_constraints_FollowUp.xml
+   create src/main/resources/config/liquibase/changelog/20180325202939_added_entity_FollowUp.xml
+   create src/main/resources/config/liquibase/changelog/20180325202939_added_entity_constraints_FollowUp.xml
    create src/main/java/com/edu/domain/FollowUp.java
    create src/main/java/com/edu/repository/FollowUpRepository.java
    create src/main/java/com/edu/web/rest/FollowUpResource.java
@@ -931,8 +930,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/followUp.json
    create src/main/webapp/i18n/mr/followUp.json
    create src/main/webapp/i18n/ta/followUp.json
-   create src/main/resources/config/liquibase/changelog/20180324222811_added_entity_Student.xml
-   create src/main/resources/config/liquibase/changelog/20180324222811_added_entity_constraints_Student.xml
+   create src/main/resources/config/liquibase/changelog/20180325202940_added_entity_Student.xml
+   create src/main/resources/config/liquibase/changelog/20180325202940_added_entity_constraints_Student.xml
    create src/main/java/com/edu/domain/Student.java
    create src/main/java/com/edu/repository/StudentRepository.java
    create src/main/java/com/edu/web/rest/StudentResource.java
@@ -964,8 +963,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/student.json
    create src/main/webapp/i18n/mr/student.json
    create src/main/webapp/i18n/ta/student.json
-   create src/main/resources/config/liquibase/changelog/20180324222812_added_entity_Enroll.xml
-   create src/main/resources/config/liquibase/changelog/20180324222812_added_entity_constraints_Enroll.xml
+   create src/main/resources/config/liquibase/changelog/20180325202941_added_entity_Enroll.xml
+   create src/main/resources/config/liquibase/changelog/20180325202941_added_entity_constraints_Enroll.xml
    create src/main/java/com/edu/domain/Enroll.java
    create src/main/java/com/edu/repository/EnrollRepository.java
    create src/main/java/com/edu/web/rest/EnrollResource.java
@@ -997,8 +996,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/enroll.json
    create src/main/webapp/i18n/mr/enroll.json
    create src/main/webapp/i18n/ta/enroll.json
-   create src/main/resources/config/liquibase/changelog/20180324222813_added_entity_Payment.xml
-   create src/main/resources/config/liquibase/changelog/20180324222813_added_entity_constraints_Payment.xml
+   create src/main/resources/config/liquibase/changelog/20180325202942_added_entity_Payment.xml
+   create src/main/resources/config/liquibase/changelog/20180325202942_added_entity_constraints_Payment.xml
    create src/main/java/com/edu/domain/Payment.java
    create src/main/java/com/edu/repository/PaymentRepository.java
    create src/main/java/com/edu/web/rest/PaymentResource.java
@@ -1030,8 +1029,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/payment.json
    create src/main/webapp/i18n/mr/payment.json
    create src/main/webapp/i18n/ta/payment.json
-   create src/main/resources/config/liquibase/changelog/20180324222814_added_entity_Batch.xml
-   create src/main/resources/config/liquibase/changelog/20180324222814_added_entity_constraints_Batch.xml
+   create src/main/resources/config/liquibase/changelog/20180325202943_added_entity_Batch.xml
+   create src/main/resources/config/liquibase/changelog/20180325202943_added_entity_constraints_Batch.xml
    create src/main/java/com/edu/domain/Batch.java
    create src/main/java/com/edu/repository/BatchRepository.java
    create src/main/java/com/edu/web/rest/BatchResource.java
@@ -1063,8 +1062,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/batch.json
    create src/main/webapp/i18n/mr/batch.json
    create src/main/webapp/i18n/ta/batch.json
-   create src/main/resources/config/liquibase/changelog/20180324222815_added_entity_Schedule.xml
-   create src/main/resources/config/liquibase/changelog/20180324222815_added_entity_constraints_Schedule.xml
+   create src/main/resources/config/liquibase/changelog/20180325202944_added_entity_Schedule.xml
+   create src/main/resources/config/liquibase/changelog/20180325202944_added_entity_constraints_Schedule.xml
    create src/main/java/com/edu/domain/Schedule.java
    create src/main/java/com/edu/repository/ScheduleRepository.java
    create src/main/java/com/edu/web/rest/ScheduleResource.java
@@ -1096,8 +1095,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/schedule.json
    create src/main/webapp/i18n/mr/schedule.json
    create src/main/webapp/i18n/ta/schedule.json
-   create src/main/resources/config/liquibase/changelog/20180324222816_added_entity_Classroom.xml
-   create src/main/resources/config/liquibase/changelog/20180324222816_added_entity_constraints_Classroom.xml
+   create src/main/resources/config/liquibase/changelog/20180325202945_added_entity_Classroom.xml
+   create src/main/resources/config/liquibase/changelog/20180325202945_added_entity_constraints_Classroom.xml
    create src/main/java/com/edu/domain/Classroom.java
    create src/main/java/com/edu/repository/ClassroomRepository.java
    create src/main/java/com/edu/web/rest/ClassroomResource.java
@@ -1129,8 +1128,8 @@ The entity ClassLog is being updated.
    create src/main/webapp/i18n/hi/classroom.json
    create src/main/webapp/i18n/mr/classroom.json
    create src/main/webapp/i18n/ta/classroom.json
-   create src/main/resources/config/liquibase/changelog/20180324222817_added_entity_ClassLog.xml
-   create src/main/resources/config/liquibase/changelog/20180324222817_added_entity_constraints_ClassLog.xml
+   create src/main/resources/config/liquibase/changelog/20180325202946_added_entity_ClassLog.xml
+   create src/main/resources/config/liquibase/changelog/20180325202946_added_entity_constraints_ClassLog.xml
    create src/main/java/com/edu/domain/ClassLog.java
    create src/main/java/com/edu/repository/ClassLogRepository.java
    create src/main/java/com/edu/web/rest/ClassLogResource.java
@@ -1178,77 +1177,77 @@ warning From Yarn 1.0 onwards, scripts don't require "--" for options to be forw
 $ node --max_old_space_size=4096 node_modules/webpack/bin/webpack.js --config webpack/webpack.dev.js --progress --profile
  10% building modules 1/4 modules 3 active .../main/webapp/content/scss/global.scssWarning: The 'no-unused-variable' rule requires type infomation.
 
-[at-loader] Using typescript@2.6.2 from typescript and "tsconfig.json" from /home/braja/Desktop/Projects/JHipster/code/edu/tsconfig.json.
+[at-loader] Using typescript@2.6.2 from typescript and "tsconfig.json" from /home/braja/Desktop/Projects/JHipster/edu/tsconfig.json.
 
-20504ms building modules                                                                
-43ms sealing
+22988ms building modules                                                                
+45ms sealing
 0ms optimizing 
 0ms basic module optimization 
 28ms module optimization
 1ms advanced module optimization 
-18ms basic chunk optimization       
-0ms chunk optimization 
+24ms basic chunk optimization       
+1ms chunk optimization 
 0ms advanced chunk optimization 
-1ms module and chunk tree optimization 
+4ms module and chunk tree optimization 
 0ms chunk modules optimization 
 0ms advanced chunk modules optimization 
-9ms module reviving 
-7ms module order optimization 
-14ms module id optimization
-4ms chunk reviving 
-0ms chunk order optimization 
-23ms chunk id optimization
-36ms hashing
+13ms module reviving
+10ms module order optimization
+21ms module id optimization
+6ms chunk reviving 
+1ms chunk order optimization 
+37ms chunk id optimization
+47ms hashing
 1ms module assets processing 
-3680ms chunk assets processing
-281ms additional chunk assets processing
+4561ms chunk assets processing
+300ms additional chunk assets processing
 0ms recording 
-0ms additional asset processing 
+1ms additional asset processing 
 0ms chunk asset optimization 
  94% asset optimization
 [at-loader] Checking started in a separate process...
 
-[at-loader] Ok, 0.523 sec.
+[at-loader] Ok, 0.464 sec.
 MergetJsonsWebpackPlugin compilation started...
 MergetJsonsWebpackPlugin compilation completed...
-670ms asset optimization
+611ms asset optimization
  95% emittingMergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
-145ms emitting
-Hash: 40efc610ae8b2d4af1e9
+202ms emitting
+Hash: 8e2f4b873625bfeafe64
 Version: webpack 3.10.0
-Time: 25649ms
+Time: 29120ms
  45 assets
 [./node_modules/css-loader/index.js!./node_modules/postcss-loader/lib/index.js!./node_modules/sass-loader/lib/loader.js!./src/main/webapp/content/scss/global.scss] ./node_modules/css-loader!./node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js!./src/main/webapp/content/scss/global.scss 5.22 kB {3} [built]
-       [] -> factory:3ms building:10009ms = 10012ms
+       [] -> factory:3ms building:11196ms = 11199ms
 [./src/main/webapp/app/app.main.ts] ./src/main/webapp/app/app.main.ts 582 bytes {0} [built]
-        factory:447ms building:3632ms = 4079ms
+        factory:504ms building:4115ms = 4619ms
 [./src/main/webapp/app/app.module.ts] ./src/main/webapp/app/app.module.ts 4.1 kB {0} [built]
-       [] -> factory:27ms building:156ms = 183ms
+       [] -> factory:49ms building:144ms = 193ms
 [./src/main/webapp/app/blocks/config/prod.config.ts] ./src/main/webapp/app/blocks/config/prod.config.ts 391 bytes {0} [built]
-       [] -> factory:44ms building:156ms dependencies:771ms = 971ms
+       [] -> factory:63ms building:177ms dependencies:964ms = 1204ms
 [./src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.ts] ./src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.ts 1.91 kB {0} [built]
-       [] -> factory:36ms building:409ms dependencies:12108ms = 12553ms
+       [] -> factory:75ms building:602ms dependencies:844ms = 1521ms
 [./src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.ts] ./src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.ts 1.03 kB {0} [built]
-       [] -> factory:36ms building:470ms dependencies:762ms = 1268ms
+       [] -> factory:75ms building:651ms dependencies:795ms = 1521ms
 [./src/main/webapp/app/blocks/interceptor/notification.interceptor.ts] ./src/main/webapp/app/blocks/interceptor/notification.interceptor.ts 1.78 kB {0} [built]
-       [] -> factory:36ms building:527ms dependencies:705ms = 1268ms
+       [] -> factory:76ms building:565ms dependencies:12905ms = 13546ms
 [./src/main/webapp/app/entities/entity.module.ts] ./src/main/webapp/app/entities/entity.module.ts 3.15 kB {0} [built]
-       [] -> factory:37ms building:633ms dependencies:148ms = 818ms
+       [] -> factory:81ms building:779ms dependencies:192ms = 1052ms
 [./src/main/webapp/app/home/home.module.ts] ./src/main/webapp/app/home/home.module.ts 1.41 kB {0} [built]
-       [] -> factory:37ms building:558ms dependencies:1842ms = 2437ms
+       [] -> factory:76ms building:720ms dependencies:1833ms = 2629ms
 [./src/main/webapp/app/layouts/index.ts] ./src/main/webapp/app/layouts/index.ts 670 bytes {0} [built]
-       [] -> factory:777ms building:91ms = 868ms
+       [] -> factory:969ms building:131ms = 1100ms
 [./src/main/webapp/app/polyfills.ts] ./src/main/webapp/app/polyfills.ts 2.66 kB {2} [built]
-        factory:200ms building:3810ms = 4010ms
+        factory:222ms building:4333ms = 4555ms
 [./src/main/webapp/app/shared/auth/state-storage.service.ts] ./src/main/webapp/app/shared/auth/state-storage.service.ts 2.84 kB {0} [built]
-       [] -> factory:38ms building:684ms dependencies:71ms = 793ms
+       [] -> factory:82ms building:807ms dependencies:124ms = 1013ms
 [./src/main/webapp/app/shared/index.ts] ./src/main/webapp/app/shared/index.ts 1.35 kB {0} [built]
-       [] -> factory:775ms building:80ms dependencies:11545ms = 12400ms
+       [] -> factory:968ms building:123ms dependencies:12420ms = 13511ms
 [./src/main/webapp/content/scss/global.scss] ./src/main/webapp/content/scss/global.scss 1.38 kB {3} [built]
-        factory:447ms building:23ms = 470ms
+        factory:505ms building:30ms = 535ms
 [./src/main/webapp/manifest.webapp] ./src/main/webapp/manifest.webapp 61 bytes {2} [built]
-       [] -> factory:520ms dependencies:1ms building:1147ms = 1668ms
+       [] -> factory:632ms dependencies:13ms building:1330ms = 1975ms
     + 869 hidden modules
 MergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
@@ -1256,7 +1255,7 @@ MergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
 MergetJsonsWebpackPlugin emit starts...
 MergetJsonsWebpackPlugin emit completed...
-Done in 28.06s.
+Done in 32.17s.
 Entity generation completed
 Entity generation completed
 Entity generation completed
@@ -1272,20 +1271,12 @@ Entity generation completed
 Entity generation completed
 Entity generation completed
 Congratulations, JHipster execution is complete!
-
-
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-++                    GIT                    ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git init
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git add .
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git commit -m "First Commit"
-[master 5f1f6a2] First Commit
- 504 files changed, 33843 insertions(+)
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ git init
+Reinitialized existing Git repository in /home/braja/Desktop/Projects/JHipster/edu/.git/
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ git add .
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ git commit -m "First commit"
+[master b3e800a] First commit
+ 505 files changed, 35643 insertions(+)
  create mode 100644 .jhipster/Batch.json
  create mode 100644 .jhipster/ClassLog.json
  create mode 100644 .jhipster/Classroom.json
@@ -1300,6 +1291,7 @@ braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git commit -m "First Co
  create mode 100644 .jhipster/Schedule.json
  create mode 100644 .jhipster/Student.json
  create mode 100644 .jhipster/Subject.json
+ create mode 100644 generator-details
  create mode 100644 jhipster-jdl.jh
  create mode 100644 src/main/java/com/edu/domain/Batch.java
  create mode 100644 src/main/java/com/edu/domain/ClassLog.java
@@ -1404,33 +1396,33 @@ braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git commit -m "First Co
  create mode 100644 src/main/java/com/edu/web/rest/ScheduleResource.java
  create mode 100644 src/main/java/com/edu/web/rest/StudentResource.java
  create mode 100644 src/main/java/com/edu/web/rest/SubjectResource.java
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222804_added_entity_Organization.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222805_added_entity_Division.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222805_added_entity_constraints_Division.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222806_added_entity_Employee.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222806_added_entity_constraints_Employee.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222807_added_entity_Course.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222807_added_entity_constraints_Course.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222808_added_entity_Subject.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222808_added_entity_constraints_Subject.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222809_added_entity_Enquiry.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222809_added_entity_constraints_Enquiry.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222810_added_entity_FollowUp.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222810_added_entity_constraints_FollowUp.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222811_added_entity_Student.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222811_added_entity_constraints_Student.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222812_added_entity_Enroll.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222812_added_entity_constraints_Enroll.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222813_added_entity_Payment.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222813_added_entity_constraints_Payment.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222814_added_entity_Batch.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222814_added_entity_constraints_Batch.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222815_added_entity_Schedule.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222815_added_entity_constraints_Schedule.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222816_added_entity_Classroom.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222816_added_entity_constraints_Classroom.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222817_added_entity_ClassLog.xml
- create mode 100644 src/main/resources/config/liquibase/changelog/20180324222817_added_entity_constraints_ClassLog.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202933_added_entity_Organization.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202934_added_entity_Division.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202934_added_entity_constraints_Division.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202935_added_entity_Employee.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202935_added_entity_constraints_Employee.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202936_added_entity_Course.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202936_added_entity_constraints_Course.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202937_added_entity_Subject.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202937_added_entity_constraints_Subject.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202938_added_entity_Enquiry.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202938_added_entity_constraints_Enquiry.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202939_added_entity_FollowUp.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202939_added_entity_constraints_FollowUp.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202940_added_entity_Student.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202940_added_entity_constraints_Student.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202941_added_entity_Enroll.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202941_added_entity_constraints_Enroll.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202942_added_entity_Payment.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202942_added_entity_constraints_Payment.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202943_added_entity_Batch.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202943_added_entity_constraints_Batch.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202944_added_entity_Schedule.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202944_added_entity_constraints_Schedule.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202945_added_entity_Classroom.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202945_added_entity_constraints_Classroom.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202946_added_entity_ClassLog.xml
+ create mode 100644 src/main/resources/config/liquibase/changelog/20180325202946_added_entity_constraints_ClassLog.xml
  create mode 100644 src/main/webapp/app/entities/batch-bli/batch-bli-delete-dialog.component.html
  create mode 100644 src/main/webapp/app/entities/batch-bli/batch-bli-delete-dialog.component.ts
  create mode 100644 src/main/webapp/app/entities/batch-bli/batch-bli-detail.component.html
@@ -1783,18 +1775,18 @@ braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git commit -m "First Co
  create mode 100644 src/test/javascript/spec/app/entities/subject-bli/subject-bli-dialog.component.spec.ts
  create mode 100644 src/test/javascript/spec/app/entities/subject-bli/subject-bli.component.spec.ts
  create mode 100644 src/test/javascript/spec/app/entities/subject-bli/subject-bli.service.spec.ts
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git remote add origin https://github.com/brajabp/edu.git
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ git push -u origin master
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ git remote add origin https://github.com/brajabp/edu.git
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ git push -u origin master
 Username for 'https://github.com': brajabp@gmail.com
 Password for 'https://brajabp@gmail.com@github.com': 
-Counting objects: 1066, done.
+Counting objects: 1067, done.
 Delta compression using up to 2 threads.
-Compressing objects: 100% (1039/1039), done.
-Writing objects: 100% (1066/1066), 550.81 KiB | 0 bytes/s, done.
-Total 1066 (delta 514), reused 0 (delta 0)
-remote: Resolving deltas: 100% (514/514), done.
+Compressing objects: 100% (1040/1040), done.
+Writing objects: 100% (1067/1067), 564.46 KiB | 0 bytes/s, done.
+Total 1067 (delta 513), reused 0 (delta 0)
+remote: Resolving deltas: 100% (513/513), done.
 To https://github.com/brajabp/edu.git
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
-braja@braja-ubuntu:~/Desktop/Projects/JHipster/code/edu$ 
+braja@braja-ubuntu:~/Desktop/Projects/JHipster/edu$ 
 
