@@ -27,6 +27,8 @@ import {
     ActiveMenuDirective,
     ErrorComponent
 } from './layouts';
+import { MainEduModule } from './main/main-edu.module';
+import { MainEduComponent } from './main/main-edu.component';
 
 @NgModule({
     imports: [
@@ -38,6 +40,7 @@ import {
         EduAdminModule,
         EduAccountModule,
         EduEntityModule,
+        MainEduModule
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [
@@ -46,7 +49,8 @@ import {
         ErrorComponent,
         PageRibbonComponent,
         ActiveMenuDirective,
-        FooterComponent
+        FooterComponent,
+        MainEduComponent
     ],
     providers: [
         ProfileService,

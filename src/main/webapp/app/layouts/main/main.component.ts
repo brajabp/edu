@@ -9,6 +9,8 @@ import { JhiLanguageHelper } from '../../shared';
 })
 export class JhiMainComponent implements OnInit {
 
+    private showJHI = false;
+
     constructor(
         private jhiLanguageHelper: JhiLanguageHelper,
         private router: Router
@@ -28,5 +30,9 @@ export class JhiMainComponent implements OnInit {
                 this.jhiLanguageHelper.updateTitle(this.getPageTitle(this.router.routerState.snapshot.root));
             }
         });
+    }
+
+    setShowJHI() {
+        return this.showJHI = !this.showJHI;
     }
 }
